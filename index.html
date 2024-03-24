@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo_js</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="detail">
+          <h1 id="time">08 : 26 PM</h1>
+          <h2 id="date">Wed 3/23/2003</h2>
+        </div>
+        <div class="inputs">
+          <input
+            type="text"
+            id="input"
+            placeholder="What do you have planned?"
+          />
+          <input type="submit" value="Add Task" id="add" onclick="add() , headingText()" />
+        </div>
+      </div>
+      <div class="task-list">
+        <h3>Tasks</h3>
+        <div id="tasks">
+          <!-- <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="tum kar lenga" />
+            </div>
+            <div class="action">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
